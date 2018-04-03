@@ -1,6 +1,8 @@
 /*
 * Game by Harry BP
 */
+var paused = true;
+var ctx;
 map = null;
 function draw(){
   if(paused)
